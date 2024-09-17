@@ -17,12 +17,16 @@ o	Players can reset the game board at any point with a button click, starting a 
 o	The game board is designed to work smoothly across devices and screen sizes, with color-coded moves that differentiate human from AI interactions.
 7.	Error Handling:
 o	Invalid moves are handled gracefully, ensuring the game remains smooth and user-friendly even if errors occur.
+
 User Interaction
+
 •	Move Making: Players click on board cells to place their move, and in AI mode, the AI's move follows instantly.
 •	Game Mode Selection: Players select between Two-Player and AI Mode, with adjustable difficulty in AI Mode.
 •	Difficulty Adjustment: Players can challenge the AI by selecting Easy, Medium, or Hard.
 •	Game Reset: A reset button enables starting a new game instantly.
+
 Technical Details
+
 •	Backend: Flask handles game logic, move processing, and difficulty adjustments.
 •	AI Algorithm: Minimax with alpha-beta pruning is used to compute the best possible move for the AI.
 •	Frontend: HTML, CSS, and JavaScript manage the game board’s appearance and interactivity, ensuring a responsive design and real-time updates.
